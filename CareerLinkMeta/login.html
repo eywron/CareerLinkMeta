@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CareerLinkMeta – Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="auth-container">
+    <!-- Login Card -->
+
+    <div class="auth-card" id="loginCard">
+      <a href="index.html" class="back-btn">← Back to Home</a>
+
+      <h2>Login</h2>
+      <input type="text" placeholder="Email or Username" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+      <p>Don't have an account? <a href="register.html" onclick="toggleForm()">Register</a></p>
+    </div>
+
+    <!-- Register Card -->
+    <div class="auth-card hidden" id="registerCard">
+      <h2>Register</h2>
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <input type="password" placeholder="Confirm Password" />
+      <button>Create Account</button>
+      <p>Already have an account? <a href="#" onclick="toggleForm()">Login</a></p>
+    </div>
+  </main>
+</body>
+</html>
